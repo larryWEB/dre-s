@@ -1,0 +1,101 @@
+.home-img{
+  width:100%;
+    position:fixed;
+     height: 100%;
+   z-index:-10;
+ filter:brightness(50%);
+ top:0px;
+ }
+
+
+*{
+ margin:0px;
+ padding:0px;
+ font-family: 'Raleway', sans-serif;
+
+}
+
+.big-screen-img{
+ visibility:hidden;
+ position:absolute;
+}
+
+
+/*font-family: 'Edu VIC WA NT Beginner', cursive;*/
+
+ .images{
+ width:130px;
+ height:190px;
+ border:2px solid yellow;
+ }
+ 
+ .mother-container{
+  z-index:-10;
+    margin-top:390px;
+ }
+
+ .personal-info{
+color:white;
+    font-family:system-ui;
+  padding:15px;
+  margin-top:-25px;
+  background-color:rgba(0, 0, 0, 0.057);
+    
+ }
+ 
+ .personal-info:hover{
+  color:yellowgreen;
+  cursor: pointer;
+ }
+
+
+ .name{
+font-size:40px;
+    font-weight:300;
+ }
+
+ .title{
+font-size:15px;
+  font-weight:300;
+ }
+
+ .social{
+  display:flex;
+  gap:18px;
+  margin-top:15px;
+ }
+
+ .awards{
+margin-top:17px;
+  background-color:rgba(172, 255, 47, 0.389);
+  display:grid;
+  justify-content:center;
+  align-items:center;
+    height:520px;
+    column-gap:-20px;
+ }
+
+
+.award-img{
+ width:250px;
+ height:220px;
+  border:2px solid yellow;
+}
+
+ .works{
+margin-top:20px;
+    display:grid;
+    grid-template-columns: repeat(2,130px);
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+ }
+
+.foot-note{
+ background-color:rgba(0, 0, 0, 0.321);
+ height:70px;
+ margin-top:30px;
+ color:yellowgreen;
+ text-align:center;
+}
+
