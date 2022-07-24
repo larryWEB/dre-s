@@ -190,16 +190,6 @@ margin-top:20px;
  }
 
 
-#scroll-top{
- position:fixed;
- bottom:30px;
- font-weight:bold;
- color:white;
- cursor:pointer;
- right:20px;
- z-index: 99;
- display: none;
-}
 
 footer{
   background-color:rgba(0, 0, 0, 0.321);
