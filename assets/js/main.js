@@ -1,5 +1,6 @@
 
 
+
 //function for sliding images
 var index = 0;
 const slides = document.querySelectorAll('.home-img');
